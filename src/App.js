@@ -1,9 +1,10 @@
 import './App.css';
+import Header from './Components/Header/Header';
 
 function App() {
   return (
     <div className=''>
-      <h2 className="text-6xl"> Mac</h2>
+      <Header></Header>
     </div>
   );
 }

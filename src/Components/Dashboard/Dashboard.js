@@ -4,6 +4,7 @@ import UseChartHook from '../Hooks/UseChartHook';
 import LineChartDiv from '../LineChartDiv/LineChartDiv';
 import SimpleAreaChartDiv from '../SimpleAreaChartDiv/SimpleAreaChartDiv';
 import SimpleBarChartDiv from '../SimpleBarChartDiv/SimpleBarChartDiv';
+import TwoLevelPieChartDiv from '../TwoLevelPieChartDiv/TwoLevelPieChartDiv';
 
 
 
@@ -20,7 +21,7 @@ const Dashboard = () => {
                 <LineChartDiv chart={chart}></LineChartDiv>
                 <SimpleAreaChartDiv chart={chart}></SimpleAreaChartDiv>
                 <SimpleBarChartDiv chart={chart}></SimpleBarChartDiv>
-                <SimpleAreaChartDiv chart={chart}></SimpleAreaChartDiv>
+                <TwoLevelPieChartDiv chart={chart}></TwoLevelPieChartDiv>
 
 
             </div>

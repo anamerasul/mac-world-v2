@@ -7,7 +7,7 @@ const Header = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
     return (
         <>
-            <nav className="flex flex-wrap items-center justify-between px-2 py-3 sticky top-0 bg-gray-800 shadow-lg  text-white mb-3">
+            <nav className="flex flex-wrap items-center justify-between px-2 py-3 top-0 bg-gray-800 shadow-lg  text-white mb-3">
                 <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
                     <div className="w-full relative flex justify-between md:w-auto md:static md:block md:justify-start">
                         <Link to='/'

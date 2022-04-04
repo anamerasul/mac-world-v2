@@ -11,11 +11,13 @@ import {
 
 const LineChartDiv = ({ chart }) => {
     return (
-        <div className="m-[20px]">
 
-            <h1 className="text-4xl ml-4"> Line chart</h1>
+
+        <div className="m-0 md:my-[30px]">
+
+            <h1 className="text-2xl ml-4"> Monthly sell</h1>
             <LineChart className="mt-8"
-                width={500}
+                width={320}
                 height={300}
                 data={chart}
                 margin={{
@@ -26,7 +28,7 @@ const LineChartDiv = ({ chart }) => {
                 }}
             >
                 <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name" />
+                <XAxis dataKey="month" />
                 <YAxis />
                 <Tooltip />
                 <Legend />

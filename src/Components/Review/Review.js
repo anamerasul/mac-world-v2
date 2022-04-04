@@ -4,7 +4,7 @@ import ReviewCart from '../ReviewCart/ReviewCart';
 
 const Review = () => {
 
-    const [reviews, setReviews] = UseLaptopReviewHook([])
+    const [reviews] = UseLaptopReviewHook([])
     return (
         <div className="my-10">
             <h2 className='text-center text-2xl font-bold mb-10'>What client says about our products ({reviews.length})</h2>

@@ -4,7 +4,7 @@ import UseLaptopReviewHook from '../Hooks/UseLaptopReviewHook';
 import ReviewCart from '../ReviewCart/ReviewCart';
 
 const HomeReview = () => {
-    const [reviews, setReviews] = UseLaptopReviewHook([])
+    const [reviews] = UseLaptopReviewHook([])
     return (
         <div className="my-10">
             <h2 className='text-center text-2xl font-bold mb-10 uppercase'>Our client review ({reviews.slice(0, 3).length})</h2>

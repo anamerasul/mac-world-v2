@@ -12,7 +12,7 @@ import TwoLevelPieChartDiv from '../TwoLevelPieChartDiv/TwoLevelPieChartDiv';
 
 const Dashboard = () => {
 
-    const [chart, setChart] = UseChartHook([])
+    const [chart] = UseChartHook([])
     return (
         <div>
 

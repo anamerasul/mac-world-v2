@@ -5,7 +5,8 @@
       "name": "Leticia Franklin",
       "text": "This is the first time I will be using an Apple computer. And I am amazed at the beautiful and sleek look of the product",
       "rate_number":5,
-      "ratings":[5,5,5,5]
+      "ratings":[1,2,3,4,5]
+
     
     },
     {
@@ -14,7 +15,7 @@
       "name": "Abbott Guerra",
       "text": "I bought this MacBook Pro because I am working on my MBA and I wanted a new MacBook Pro with great battery life and excellent quality fit and finish. I appreciate the fine things in life, and along with my other Apple products I was not disappointed.",
       "rate_number":5,
-      "ratings":[5,5,5,5,5]
+      "ratings":[1,2,3,4,5]
     },
     {
       "id": 2,
@@ -22,7 +23,7 @@
       "name": "Sara Christensen",
       "text": "well as long as you get like the external hard drives this is a fast Mac Book Pro ever I love it",
       "rate_number":5,
-      "ratings":[5,5,5,5,5]
+      "ratings":[1,2,3,4,5]
     },
     {
       "id": 3,
@@ -30,14 +31,15 @@
       "name": "Velazquez Jenkins",
       "text": "The Retina display is absolutely stunning and easy on the eyes. Light, sleek design. Easy to connect all your devices and perfect for on the go use, as I bought it for college.",
       "rate_number":5,
-      "ratings":[5,5,5,5,5]
+      "ratings":[1,2,3,4,5]
     },
     {
       "id": 4,
       "picture": "https://images.unsplash.com/photo-1548449112-96a38a643324?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=120&q=120",
       "name": "Chapman Salazar",
       "text": "The good thing about this product was that it was easy to assemble and worked without and glitches.",
-      "ratings":[5,5,5,5,5]
+      "rate_number":5,
+      "ratings":[1,2,3,4,5]
     },
     {
       "id": 5,
@@ -45,7 +47,7 @@
       "name": "Ryan Dominguez",
       "text": "I recently started a business and this has everything I need and its really fast my favorite part on the Touch Bar",
       "rate_number":5,
-      "ratings":[5,5,5,5,5]
+      "ratings":[1,2,3,4,5]
     },
     {
       "id": 6,
@@ -53,7 +55,7 @@
       "name": "Mckee Price",
       "text": "I recommend spending this much money on it it’s worth it",
       "rate_number":5,
-      "ratings":[5,5,5,5,5]
+      "ratings":[1,2,3,4,5]
     },
     {
       "id": 7,
@@ -61,7 +63,7 @@
       "name": "Sampson Pena",
       "text": "Amazing tv features and I was able to connect my tv provider to this one so I get everything on both!",
       "rate_number":5,
-      "ratings":[5,5,5,5,5]
+      "ratings":[1,2,3,4,5]
     },
     {
       "id": 8,
@@ -69,7 +71,7 @@
       "name": "West Hawkins",
       "text": "Totally in love with my MacBook Pro 2019. Easy to use and soooo fast!!!",
       "rate_number":5,
-      "ratings":[5,5,5,5,5]
+      "ratings":[1,2,3,4,5]
     },
     {
       "id": 9,
@@ -77,7 +79,7 @@
       "name": "Le Roberson",
       "text": "I've used the laptop for a week and I am blown away. Performance, screen, battery life, and build quality are all exceptional.",
       "rate_number":5,
-      "ratings":[5,5,5,5,5]
+      "ratings":[1,2,3,4,5]
     },
     {
       "id": 10,
@@ -85,7 +87,7 @@
       "name": "Burton Morgan",
       "text": "This is the first Mac that I have used. I have only ever had a Lenovo and was skeptical to switch to apple despite having all other apple devices. I wasn't sure if I wanted to take the chance on hating it (since its so expensive) just to have the added perks of all of my devices connecting together. However, after hearing enough good reviews from friends I decided to switch and it was the best decision! ",
       "rate_number":5,
-      "ratings":[5,5,5,5,5]
+      "ratings":[1,2,3,4,5]
     },
     {
       "id": 11,
@@ -93,6 +95,6 @@
       "name": "Tyler Harper",
       "text": "It is a great personal computer. Went with the touch bar and 256gb because it was on sale. Definitely go with more storage because nowadays to back up your phone you will need at least 128gb.",
       "rate_number":5,
-      "ratings":[5,5,5,5,5]
+      "ratings":[1,2,3,4,5]
     }
   ]

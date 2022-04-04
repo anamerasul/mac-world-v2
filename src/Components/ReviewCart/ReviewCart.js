@@ -2,10 +2,7 @@ import React from 'react';
 import { AiFillStar } from 'react-icons/ai';
 
 const ReviewCart = (props) => {
-    console.log(props)
     const { review } = props
-
-    console.log(review)
     return (
         <div className='shadow-lg rounded-4xl  bg-white p-4 mx-4 gap-10'>
 
@@ -21,13 +18,14 @@ const ReviewCart = (props) => {
 
                     <span className='text-gray-400 text-xl' > <span className="font-medium">Comment</span>  :{review.text}</span>
 
-                    <span className='text-gray-400 text-xl flex flex-row gap-2 ' >Ratings: {review.rate_number} <span className="flex flex-row mt-1 text-yellow-400"> {review.ratings.map(rate => <AiFillStar></AiFillStar>)}</span></span>
+                    <span className='text-gray-400 text-xl flex flex-row gap-2 ' >Ratings: {review.rate_number} <span className="flex flex-row mt-1 text-yellow-400"> {review.ratings.map(rate => <AiFillStar key={rate}></AiFillStar>)}</span></span>
+
 
                 </div>
 
 
             </div>
-        </div>
+        </div >
     );
 };
 

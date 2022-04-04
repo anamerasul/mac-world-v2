@@ -10,25 +10,6 @@ const TwoLevelPieChartDiv = ({ chart }) => {
             <h1 className="text-2xl ml-4 uppercase"> revenue vs investment</h1>
 
             <PieChart className="mt-8" width={320} height={400}>
-                {/* <Pie
-                    data={chart}
-                    dataKey="investment"
-                    cx={200}
-                    cy={200}
-                    outerRadius={60}
-                    fill="#8884d8"
-                />
-                <Pie
-                    data={chart}
-                    dataKey="revenue"
-                    cx={200}
-                    cy={200}
-                    innerRadius={70}
-                    outerRadius={90}
-                    fill="#82ca9d"
-                    label */}
-                {/* /> */}
-
                 <Pie data={chart} dataKey="investment" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />
                 <Pie data={chart} dataKey="revenue" cx="50%" cy="50%" innerRadius={70} outerRadius={90} fill="#82ca9d" label />
             </PieChart>

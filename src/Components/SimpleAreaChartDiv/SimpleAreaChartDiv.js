@@ -15,7 +15,7 @@ const SimpleAreaChartDiv = ({ chart }) => {
 
             <h1 className="text-2xl ml-4 uppercase"> revenue vs investment</h1>
 
-            <AreaChart
+            <AreaChart className="mt-8"
                 width={320}
                 height={300}
                 data={chart}

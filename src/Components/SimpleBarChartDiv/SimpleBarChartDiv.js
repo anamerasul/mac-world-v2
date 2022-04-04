@@ -1,7 +1,7 @@
 import React from 'react';
 import {
-    LineChart,
-    Line,
+    BarChart,
+    Bar,
     XAxis,
     YAxis,
     CartesianGrid,
@@ -9,14 +9,13 @@ import {
     Legend
 } from "recharts";
 
-const LineChartDiv = ({ chart }) => {
+const SimpleBarChartDiv = ({ chart }) => {
     return (
-
-
         <div className="m-0 md:my-[30px]">
 
-            <h1 className="text-2xl ml-4 uppercase"> Monthly sell</h1>
-            <LineChart className="mt-8"
+            <h1 className="text-2xl ml-4 uppercase"> revenue vs investment</h1>
+
+            <BarChart className="mt-8"
                 width={320}
                 height={300}
                 data={chart}
@@ -32,16 +31,12 @@ const LineChartDiv = ({ chart }) => {
                 <YAxis />
                 <Tooltip />
                 <Legend />
-                <Line
-                    type="monotone"
-                    dataKey="revenue"
-                    stroke="#8884d8"
-                    activeDot={{ r: 8 }}
-                />
-                <Line type="monotone" dataKey="investment" stroke="#82ca9d" />
-            </LineChart>
+                <Bar dataKey="investment" fill="#8884d8" />
+                <Bar dataKey="revenue" fill="#82ca9d" />
+            </BarChart>
+
         </div>
     );
 };
 
-export default LineChartDiv;
+export default SimpleBarChartDiv;

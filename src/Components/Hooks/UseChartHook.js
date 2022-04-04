@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 
-const ChartHook = () => {
+const UseChartHook = () => {
     const [chart, setChart] = useState([])
 
     useEffect(() => {
@@ -15,4 +15,4 @@ const ChartHook = () => {
     return [chart, setChart]
 }
 
-export default ChartHook;
+export default UseChartHook;

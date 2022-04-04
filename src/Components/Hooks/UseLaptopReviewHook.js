@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 
-const LaptopReviewHook = () => {
+const UseLaptopReviewHook = () => {
     const [reviews, setReviews] = useState([])
     useEffect(() => {
         const url = `laptopfake.json`
@@ -14,4 +14,4 @@ const LaptopReviewHook = () => {
 
 }
 
-export default LaptopReviewHook;
+export default UseLaptopReviewHook;

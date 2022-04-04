@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import LaptopReviewHook from '../Hooks/LaptopReviewHook';
+import UseLaptopReviewHook from '../Hooks/UseLaptopReviewHook';
 import ReviewCart from '../ReviewCart/ReviewCart';
 
 const HomeReview = () => {
-    const [reviews, setReviews] = LaptopReviewHook([])
+    const [reviews, setReviews] = UseLaptopReviewHook([])
     return (
         <div className="my-10">
             <h2 className='text-center text-2xl font-bold mb-10'>What client says about our products</h2>

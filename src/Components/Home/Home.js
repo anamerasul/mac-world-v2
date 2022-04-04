@@ -10,8 +10,8 @@ const Home = () => {
         <div className='container px-6'>
             <div className="home-main-container">
                 <div className='title pl-6 max-w-[100%] order-2  md:order-1'>
-                    <h1 className="text-6xl uppercase font-black "> welcome to <span className="hover:text-[#09f2b1]">mac</span>  world </h1>
-                    <p className='text-3xl font-normal px-2 mt-8 mb-12 lg:mr-32'>Mac world is your ultimate guide to Apple's product universe, explaining what's new, what's best and how to make the most out of the products you love.</p>
+                    <h1 className=" text-3xl md:text-6xl uppercase font-black "> welcome to <span className="hover:text-[#09f2b1]">mac</span>  world </h1>
+                    <p className='text-xl md:text-3xl font-normal px-2 mt-8 mb-12 lg:mr-32'>Mac world is your ultimate guide to Apple's product universe, explaining what's new, what's best and how to make the most out of the products you love.</p>
 
                     <Link to='/dashboard' className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-4">Next</Link>
 

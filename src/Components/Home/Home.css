@@ -16,3 +16,11 @@
     }
 }
 
+@media  (min-width:769px) and (max-width:992px)  {
+    .home-main-container{
+        display: grid;
+        grid-template-columns:2fr 1fr;
+    }
+}
+
+

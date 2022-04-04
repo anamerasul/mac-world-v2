@@ -7,7 +7,7 @@ const ReviewCart = (props) => {
 
     console.log(review)
     return (
-        <div className='shadow-lg rounded-4xl  bg-white p-4 mx-4'>
+        <div className='shadow-lg rounded-4xl  bg-white p-4 mx-4 gap-10'>
 
 
             <div className='flex gap-8 justify-between items-center'>

@@ -39,4 +39,4 @@ https://mac-world.netlify.app/
 - visitor will find some simple question with answer in blog
 
 - About cointains history of apple inc.
--
+- spinner shows while data is processing on (home-page review section, review page and dashboard page chart section) when  it's load complete the spinner is gone;  

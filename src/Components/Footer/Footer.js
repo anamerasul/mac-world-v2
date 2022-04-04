@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer className='bg-gray-900  py-4 mt-8 md:mt-24'>
             <div className='max-w-screen-xl mx-auto px-4'>
-                <div className=' flex max-w-xs mx-auto items-center justify-between'>
+                <div className=' flex max-w-xs mx-auto items-center justify-evenly md:justify-between'>
                     <a
                         href='https://facebook.com/sparkgears'
                         className='text-white hover:text-gray-800 transition-colors duration-200'

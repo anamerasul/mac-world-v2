@@ -28,7 +28,9 @@ const HomeReview = () => {
                         <div className="mx-auto text-center mt-10">
                             <Link className=' bg-blue-900 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-4 text-center mt-8' to="/reviews">
 
+
                                 see all review
+
                             </Link>
 
                         </div>

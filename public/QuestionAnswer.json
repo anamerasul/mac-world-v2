@@ -1,0 +1,21 @@
+[
+    {
+    "id":1,
+    "question":"What is Context API?",
+    "answer":"The React Context API may be a manner for a React app to effectively manufacture world variables that may be passed around. this is often the choice to 'prop drilling' or moving props from forbear to kid to parent, and so on. Context is additionally touted as a neater, lighter approach to state management exploitation revived. Context API may be a (kind of) new feature further in version 16.3 of React that permits one to share state across the complete app (or a part of it) gently and with ease."
+    },
+    {
+        
+        "id":2,
+        "question":"What are Semantic Elements with example?",
+        "answer":" HTML was originally created as a nomenclature to explain documents on the first net. because the net grew and was adopted by additional folks, its wants modified. Where the web was originally supposed for sharing scientific documents, currently folks wished to share alternative things still. terribly quickly, folks started desperate to build the online look nicer.  Example : <article> <aside>,<details>,<figcaption>,<figure>,<footer>,<header>,<main>,<mark>,<nav>,<section>,<summary>,<time>"
+        
+        
+        },
+    {
+        
+        "id":3,
+        "question":"Difference among inline element vs block element vs inline-block element,",
+        "answer":"Block-level Elements: A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element. A block-level element always takes up the full width available stretches out to the left and right as far as it can. \n \n  Inline Elements: An inline element does not start on a new line. An inline element only takes up as much width as necessary.                                                                                                                \n \n    Inline-Block: Displays an element as an inline-level block container. You set height and width values of a inline-block element. "  
+        }
+    ]
